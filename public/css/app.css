@@ -1,6 +1,6 @@
 @layer components {
     .nav-tengah {
-        @apply font-poppins font-normal text-sm sm: text-base text-black hover:text-black/60 duration-100 md:hover:border-b-2 hover:border-black;
+        @apply font-poppins font-normal text-sm sm:text-base text-black hover:text-black/60 duration-100 md:hover:border-b-2 hover:border-black;
     }
 
     .label-input {
@@ -12,7 +12,7 @@
     }
 
     .info {
-        @apply font-poppins font-normal text-xs md: text-sm text-[#666666] text-center;
+        @apply font-poppins font-normal text-xs md:text-sm text-[#666666] text-center;
     }
 
     .info-2 {

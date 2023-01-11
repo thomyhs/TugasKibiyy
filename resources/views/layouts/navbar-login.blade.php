@@ -47,9 +47,9 @@
         <a href="{{'/home'}}" class="nav-tengah hover:text-black/60 md:hover:border-b-2 hover:border-black;">Home</a>
         <div class="relative">
             <button class="flex flex-row gap-1 group drop" id="drop" onclick="drupdon()">
-                <div class="ajg flex">
-                    <p class=" nav-tengah cursor-pointer">Kelas</p>
-                    <svg class="kon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                <div class="ajg flex" onclick="rotate()">
+                    <p href="{{'/landing-page/#material'}}" class=" nav-tengah cursor-pointer">Kelas</p>
+                    <svg id="rot" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M6 9l6 6 6-6" />
                     </svg>
