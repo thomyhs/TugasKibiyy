@@ -9,23 +9,19 @@ function toggle() {
 
 function drupdon() {
     var y = document.getElementById("down");
-    var x = document.getElementById("up");
-    if (.kon.style.transform === "rotate-180") {
-        console.log('tes')
-        if (y.style.display === "flex") {
-            y.style.display = "none";
-        } else {
-            y.style.display = "flex";
-        }
-        document.querySelector('.kon').style.transform = 'rotate(180deg)';
+    if (y.style.display === "flex") {
+        y.style.display = "none";
     } else {
-        console.log('ajg')
-        if (x.style.display === "flex") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "flex";
-        }
-        document.querySelector('.kon').style.transform = 'rotate(45deg)';
+        y.style.display = "flex";
     }
+    document.querySelector('.kon').style.transform = 'rotate(180deg)';
+}
 
+function rotate() {
+    var x = document.getElementById("rot");
+    if (x.style.transform === "rotateX(180deg)") {
+        x.style.transform = "rotateX(0deg)";
+    } else {
+        x.style.transform = "rotateX(180deg)";
+    }
 }
