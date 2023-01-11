@@ -1,16 +1,20 @@
 @layer components {
     .nav-tengah {
-        @apply font-poppins font-normal text-sm sm:text-base text-black hover:text-black/60 duration-100 md:hover:border-b-2 hover:border-black;
+        @apply font-poppins font-normal text-sm sm: text-base text-black hover:text-black/60 duration-100 md:hover:border-b-2 hover:border-black;
     }
+
     .label-input {
         @apply font-readex font-normal text-sm text-black;
     }
+
     .input {
-        @apply rounded-[10px] px-3 py-1 border-2 border-[#4641A7]/20 focus:outline-[#4641A7];
+        @apply rounded-[10px] px-3 py-1 border-2 border-[#4641A7]/20 focus: outline-[#4641A7];
     }
+
     .info {
-        @apply font-poppins font-normal text-xs md:text-sm text-[#666666] text-center;
+        @apply font-poppins font-normal text-xs md: text-sm text-[#666666] text-center;
     }
+
     .info-2 {
         @apply font-medium text-[#4641A7];
     }

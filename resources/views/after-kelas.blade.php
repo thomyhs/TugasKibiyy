@@ -44,7 +44,7 @@
 </head>
 <body class="py-5 md:py-10 mx-5 md:mx-10">
     <!-- Button Kembali -->
-    <button class="py-1 pr-3 pl-1 flex items-center gap-3 rounded-[25px] border border-[#4641A7]">
+    <button class="py-1 pr-3 pl-1 flex items-center gap-3 rounded-[25px] border border-[#4641A7]" onclick="window.history.back()">
         <div class="p-2 rounded-full bg-[#4641A7]">
             <svg class="w-[9px] h-auto" width="16" height="16" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.19583 12.0621C7.6258 11.6321 7.6258 10.9376 7.19583 10.5076L2.91813 6.22989L7.19583 1.95219C7.6258 1.52221 7.6258 0.827638 7.19583 0.397663C6.76585 -0.0323124 6.07128 -0.0323124 5.6413 0.397663L0.58083 5.45814C0.150855 5.88811 0.150855 6.58269 0.58083 7.01266L5.6413 12.0731C6.06025 12.4921 6.76585 12.4921 7.19583 12.0621Z" fill="white" />
@@ -72,7 +72,7 @@
                 <p class="text-poppins font-bold text-sm md:text-base text-[#4641A7]">Kelas 10</p>
             </div>
             <div class="flex justify-between bg-white rounded-[25px] w-full shadow-[0_0_5px_0_rgba(70,65,167,0.25)] py-1 px-3">
-                <input type="text" class="w-full mr-2 outline-none font-poppins font-normal text-xs md:text-base" placeholder="Search your Material..." />
+                <input type="text" class="w-full mr-2 outline-none  font-poppins font-normal text-xs md:text-base" placeholder="Search your Material..." />
                 <svg class="w-4 md:w-fit" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.45 0C14.6691 0 18.9 4.43238 18.9 9.9C18.9 12.2373 18.1269 14.3853 16.8339 16.0789L20.6925 20.1222C21.1025 20.5518 21.1025 21.2482 20.6925 21.6778C20.314 22.0744 19.7184 22.1049 19.3065 21.7693L19.2075 21.6778L15.348 17.6355C13.7315 18.9901 11.681 19.8 9.45 19.8C4.23091 19.8 0 15.3676 0 9.9C0 4.43238 4.23091 0 9.45 0ZM9.45 2.2C5.39071 2.2 2.1 5.64741 2.1 9.9C2.1 14.1526 5.39071 17.6 9.45 17.6C13.5093 17.6 16.8 14.1526 16.8 9.9C16.8 5.64741 13.5093 2.2 9.45 2.2Z" fill="#4641A7" />
                 </svg>
