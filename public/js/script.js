@@ -9,6 +9,7 @@ function toggle() {
 
 function drupdon() {
     var y = document.getElementById("down");
+
     if (y.style.display === "flex") {
         y.style.display = "none";
     } else {
