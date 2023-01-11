@@ -18,7 +18,7 @@
             transform: rotateX(180deg);
         } */
 
-        .ajg {
+        /* .ajg {
             -moz-transition: all .5s linear;
             -webkit-transition: all .5s linear;
             transition: all .5s linear;
@@ -27,7 +27,7 @@
             -moz-transform:rotate(180deg);
             -webkit-transform:rotate(180deg);
             transform:rotate(180deg);
-        }
+        } */
 </style>
 
 <nav
@@ -48,7 +48,7 @@
         <div class="relative">
             <button class="flex flex-row gap-1 group drop" id="drop" onclick="drupdon()">
                 <div class="ajg flex">
-                    <p href="{{'/landing-page/#material'}}" class=" nav-tengah cursor-pointer">Kelas</p>
+                    <p class=" nav-tengah cursor-pointer">Kelas</p>
                     <svg class="kon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M6 9l6 6 6-6" />
@@ -56,12 +56,6 @@
                 </div>
             </button>
             <div id="down"
-                class="hidden flex-col absolute bg-white min-w-max gap-2 mt-3 px-3 py-3 rounded-b-[15px] shadow-[0_4px_5px_0_rgba(70,65,167,0.25)] ">
-                <a class="nav-tengah text-black/30 hover:text-[#4641A7]" href="">Kelas 10</a>
-                <a class="nav-tengah text-black/30 hover:text-[#4641A7]" href="">Kelas 11</a>
-                <a class="nav-tengah text-black/30 hover:text-[#4641A7]" href="">Kelas 12</a>
-            </div>
-            <div id="up"
                 class="hidden flex-col absolute bg-white min-w-max gap-2 mt-3 px-3 py-3 rounded-b-[15px] shadow-[0_4px_5px_0_rgba(70,65,167,0.25)] ">
                 <a class="nav-tengah text-black/30 hover:text-[#4641A7]" href="">Kelas 10</a>
                 <a class="nav-tengah text-black/30 hover:text-[#4641A7]" href="">Kelas 11</a>
@@ -92,4 +86,3 @@
     </div>
     <script src="./js/script.js"></script>
 </nav>
-<script>
