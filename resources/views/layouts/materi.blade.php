@@ -50,7 +50,7 @@
 </head>
 <body class="py-5 md:py-10 mx-5 md:mx-10">
     <!-- Button Kembali -->
-    <button onclick="window.location.href='{{'/after-kelas'}}'" class="py-1 pr-3 pl-1 flex items-center gap-3 rounded-[25px] border border-[#4641A7]">
+    <button onclick="window.history.back()" class="py-1 pr-3 pl-1 flex items-center gap-3 rounded-[25px] border border-[#4641A7]">
         <div class="p-2 rounded-full bg-[#4641A7]">
             <svg class="w-[9px] h-auto" width="16" height="16" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.19583 12.0621C7.6258 11.6321 7.6258 10.9376 7.19583 10.5076L2.91813 6.22989L7.19583 1.95219C7.6258 1.52221 7.6258 0.827638 7.19583 0.397663C6.76585 -0.0323124 6.07128 -0.0323124 5.6413 0.397663L0.58083 5.45814C0.150855 5.88811 0.150855 6.58269 0.58083 7.01266L5.6413 12.0731C6.06025 12.4921 6.76585 12.4921 7.19583 12.0621Z" fill="white" />

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('landing-page');
 });
 
-Route::view('/login', 'login');
+Route::view('/loginn', 'loginn');
 Route::view('/register', 'register');
-Route::view('/home', 'home');
+Route::view('/hume', 'hume');
 Route::view('/bindo', 'bindo');
 Route::view('/sejarah', 'sejarah');
 Route::view('/after-kelas', 'after-kelas');
@@ -28,3 +28,7 @@ Route::view('/after-materi', 'after-materi');
 Route::view('/landing-page', 'landing-page');
 Route::view('/landing-page/#home', 'landing-page');
 Route::view('/landing-page/#material', 'landing-page');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
