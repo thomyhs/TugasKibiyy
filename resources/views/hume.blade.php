@@ -54,7 +54,7 @@
     <!-- Jumbotron -->
     <section class="bg-[#E3F0FA]">
         <div class="py-5 md:py-14 px-5 flex flex-col justify-center text-center items-center">
-            <h1 class="font-readex font-normal text-lg md:text-4xl text-[#1E1E1E]">Halo, <span class="text-[#4641A7]">Willy the Kid!</span> Mau belajar apa hari ini?</h1>
+            <h1 class="font-readex font-normal text-lg md:text-4xl text-[#1E1E1E]">Halo, <span class="text-[#4641A7]">{{Auth::user()->name}}</span> Mau belajar apa hari ini?</h1>
             <div class="flex justify-between bg-white rounded-[29px] py-[5px] md:py-[10px] px-4 md:px-7 mt-3 md:mt-9 w-full md:w-1/2">
                 <input type="text" class="w-full mr-2 outline-none font-poppins font-normal text-xs md:text-base" placeholder="Search your Material..." />
                 <svg class="w-4 md:w-fit" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">

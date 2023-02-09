@@ -70,9 +70,9 @@
         <div id="profile"
             class="hidden absolute top-12 -left-60  bg-white shadow-[0_4px_5px_0_rgba(70,65,167,0.25)] rounded-[15px] text-center flex-col p-8 w-[350px] z-20">
             <img class="rounded-full self-center w-[70px] h-auto" src="./assets/willy.jpg">
-            <p class="font-poppins font-medium text-xl text-[#1E1E1E] pt-2">Willy The Kiddo</p>
+            <p class="font-poppins font-medium text-xl text-[#1E1E1E] pt-2">{{Auth::user()->name}}</p>
             <p class="font-poppins font-normal text-base text-[#666666] pb-5">
-                willythe.kid@gmail.com</p>
+                {{Auth::user()->email}}</p>
             <div>
                 <button
                     class="dropdown-item box-border justify-center items-center px-20 py-1 gap-[10px] border-[1.5px] border-[#4641A7] rounded-[10px] font-readex font-normal text-xl text-[#4641A7] hover:border-red-600 hover:text-red-600 hover:border-2 "
