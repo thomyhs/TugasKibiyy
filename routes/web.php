@@ -29,6 +29,11 @@ Route::view('/landing-page', 'landing-page');
 Route::view('/landing-page/#home', 'landing-page');
 Route::view('/landing-page/#material', 'landing-page');
 
+// Routes BackOffice
+
+Route::view('/sidebar', 'layouts.sidebar-bo');
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
